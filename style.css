@@ -1,2 +1,140 @@
 /* CSS Document */
 
+*{
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	display: flex;
+	justify-content: center;
+}
+
+.principal{
+	width: 1000px;
+    display: flex;
+    justify-content: center;
+}
+
+.lateral {
+	width: 30%;
+	color: #ed6e1c;
+	margin-right: 90px;
+	padding-right: 30px;
+}
+
+.contenido {
+  	width: 70%;
+}
+
+.rectangulo{
+	background-color: #ed6e1c;
+	width: 37%;
+	height: 40px;
+	border-radius: 0 0 20px 0;
+	margin-bottom: 100px;
+}
+
+.cabecera{
+	margin-top: 60px;
+}
+
+h1{
+	font-size: 60px;
+	font-family: "neulis-cursive", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 70px;
+}
+
+.rol{
+	margin-top: 12px;
+	font-size: 26px;
+	font-family: "neulis-neue", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+}
+
+.datos{
+	margin: 80px 0 80px;
+	font-family: "neulis-sans", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	line-height: 25px;
+	letter-spacing: 0.3px;
+}
+
+.subrayado{
+	border: none;
+	background-color: #ed6e1c;
+	height: 1.3px;
+	width: 231px;
+}
+
+article{
+	margin-bottom: 50px;
+	display: flex;	
+	line-height: 22px;
+}
+
+h2{
+	font-family: neulis-neue, sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	color: #ed6e1c;
+}
+
+.puesto{
+	font-family: "calluna-sans", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.titulo{
+	width: 30%;
+	letter-spacing: 0.2px;
+}
+
+.info{
+	width: 70%;
+	font-family: "calluna-sans", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 17px;
+}
+
+.item-info{
+	margin-bottom: 20px;
+}
+
+ul{
+	margin-left: 25px;
+}
+
+.fecha, .lugar{
+	font-variant: all-small-caps;
+}
+
+.portafolio {
+	font-family: "neulis-sans", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	background: #ed6e1c;
+	text-align: center;
+	color: #fff;
+	width: 250px;
+	height: 26px;
+	line-height: 28px;
+	border-radius: 15px;
+	letter-spacing: 0.3px;
+	position: absolute;
+	margin: -70px 0 0 50px;
+}
+
+footer{
+	background-color: #ed6e1c;
+	width: 100%;
+	height: 40px;
+	margin-top: 100px;
+	bottom: 0;
+}
