@@ -1,10 +1,8 @@
 /* CSS Document */
-
-*{
-	margin: 0;
-	padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-
 /*
 Fuentes que quiero probar 
 
@@ -18,178 +16,153 @@ font-family: MBJ Doodles;
 src: url("fonts/mbj_doodles.ttf")
 }
 */
-
 main {
-	display: flex;
-	justify-content: center;
-	width: auto;
+  display: flex;
+  justify-content: center;
+  width: auto;
 }
-
-header{
-	display: flex;
-	margin-bottom: 80px;
-	justify-content: center;
+header {
+  display: flex;
+  margin-bottom: 80px;
+  justify-content: center;
 }
-
 .menu {
-	background-color: #ed6e1c;
-	border-radius: 0 0 30px 30px;
-	padding: 30px 40px;
-	min-width: 66%;
+  background-color: #ed6e1c;
+  border-radius: 0 0 30px 30px;
+  padding: 30px 40px;
+  min-width: 66%;
 }
-
 .menu ul {
-	list-style-type: none;
-	display: flex;
-	justify-content: space-evenly;
-	align-items: center;
-	margin: 0px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0px;
 }
 .menu li {
-	margin: 0 20px 0 20px;
+  margin: 0 20px 0 20px;
 }
-.menu a{
-	font-family: neulis-neue, sans-serif;
-	font-weight: 600;
-	font-style: normal;
-	color: #ffffff;
-	font-size: 22px;
-	text-decoration: none;
-	letter-spacing: 0.3px;
-    padding: 6px 16px 4px 16px;
-    border-radius: 20px;
+.menu a {
+  font-family: neulis-neue, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 22px;
+  text-decoration: none;
+  letter-spacing: 0.3px;
+  padding: 6px 16px 4px 16px;
+  border-radius: 20px;
 }
-
 .menu a:hover {
-    background: #ffffff;
-    color: rgb(237, 110, 28);
-    transition: 0.3s;
+  background: #ffffff;
+  color: rgb(237, 110, 28);
+  transition: 0.3s;
 }
-
-.principal{
-	max-width: 63%;
-    display: flex;
-    justify-content: center;
+.principal {
+  max-width: 63%;
+  display: flex;
+  justify-content: center;
 }
-
 .lateral {
-	color: #ed6e1c;
-	margin-right: 30px;
+  color: #ed6e1c;
+  margin-right: 30px;
 }
-
 .contenido {
-	margin-top: 15px;
+  margin-top: 15px;
 }
-
-h1{
-	font-size: 55px;
-	font-family: "neulis-cursive", sans-serif;
-	font-weight: 700;
-	font-style: normal;
-	line-height: 69px;
-	width: 300px;
+h1 {
+  font-size: 55px;
+  font-family: "neulis-cursive", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 69px;
+  width: 300px;
 }
-
-.datos{
-	margin: 70px 0 70px 0;
-	font-family: "neulis-sans", sans-serif;
-	font-weight: 600;
-	font-style: normal;
-	font-size: 16px;
-	line-height: 33px;
-	letter-spacing: 0.2px;
+.datos {
+  margin: 70px 0 70px 0;
+  font-family: "neulis-sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 33px;
+  letter-spacing: 0.2px;
 }
-
-.datos li{
-	list-style-type: none;
-	display: flex;
+.datos li {
+  list-style-type: none;
+  display: flex;
 }
-
-.datos a{
-	text-decoration: none;
-	color: #ed6e1c;
-	display: flex;
+.datos a {
+  text-decoration: none;
+  color: #ed6e1c;
+  display: flex;
 }
-
-.datos-icono{
-    margin-top: -4px;
-    margin-right: 15px;
+.datos-icono {
+  margin-top: -4px;
+  margin-right: 15px;
 }
-
-article{
-	margin-bottom: 40px;
-	display: flex;	
-	line-height: 23px;
+article {
+  margin-bottom: 40px;
+  display: flex;
+  line-height: 23px;
 }
-
-h2{
-	font-family: neulis-neue, sans-serif;
-	font-weight: 600;
-	font-style: normal;
-	color: #ed6e1c;
+h2 {
+  font-family: neulis-neue, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #ed6e1c;
 }
-
-.puesto{
-	font-family: "calluna-sans", sans-serif;
-	font-weight: 700;
-	font-style: normal;
+.puesto {
+  font-family: "calluna-sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
-
-.titulo{
-	min-width: 150px;
-	letter-spacing: 0.2px;
-	margin-right: 40px;
+.titulo {
+  min-width: 150px;
+  letter-spacing: 0.2px;
+  margin-right: 40px;
 }
-
-.info{
-	width: 70%;
-	font-family: "calluna-sans", sans-serif;
-	font-weight: 400;
-	font-style: normal;
-	font-size: 17px;
+.info {
+  width: 70%;
+  font-family: "calluna-sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
 }
-
-.item-info{
-	margin-bottom: 25px;
-	color: #2D2926;
+.item-info {
+  margin-bottom: 25px;
+  color: #2D2926;
 }
-
-ul{
-	margin-left: 25px;
+ul {
+  margin-left: 25px;
 }
-
-.fecha, .lugar{
-	font-variant: all-small-caps;
-	color: #707070;
-	font-weight: 600;
+.fecha, .lugar {
+  font-variant: all-small-caps;
+  color: #707070;
+  font-weight: 600;
 }
-.lugar{
-	margin-bottom: 10px;
+.lugar {
+  margin-bottom: 10px;
 }
-
-
-
 .rol {
-	font-family: "neulis-sans", sans-serif;
-	font-weight: 600;
-	font-style: normal;
-	font-size: 19px;
-	background: #ed6e1c;
-	text-align: center;
-	width: 215px;
-	height: 32px;
-	line-height: 35px;
-	border-radius: 20px;
-	letter-spacing: 0.25px;
-	position: absolute;
-	margin: -65px 0 0 40px;
-	color: #fff;
+  font-family: "neulis-sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 19px;
+  background: #ed6e1c;
+  text-align: center;
+  width: 215px;
+  height: 32px;
+  line-height: 35px;
+  border-radius: 20px;
+  letter-spacing: 0.25px;
+  position: absolute;
+  margin: -65px 0 0 40px;
+  color: #fff;
 }
-
-footer{
-	background-color: #ed6e1c;
-	width: 100%;
-	height: 40px;
-	margin-top: 100px;
-	bottom: 0;
+footer {
+  background-color: #ed6e1c;
+  width: 100%;
+  height: 40px;
+  margin-top: 100px;
+  bottom: 0;
 }
