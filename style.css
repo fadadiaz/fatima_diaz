@@ -121,7 +121,7 @@ h1 {
     margin: 35px 0 0 -40px;
 }
 .subrayado{
-	font-family: MBJ Doodles;
+	font-family: "MBJ Doodles";
     font-size: 50px;
     margin: -51px 0 0 0;
 	 -webkit-user-select: none;
@@ -131,7 +131,7 @@ h1 {
     transform: rotate(-6.14rad);
 }
 .disponible{
-	font-family:  MBJ Handwriting;
+	font-family:  "MBJ Handwriting";
 	font-size: 28px;
 	width: 200px;
 	text-align: center;
