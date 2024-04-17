@@ -24,7 +24,7 @@ header {
   justify-content: center;
   height: 70px;
 }
-::-moz-selection { /* Code for Firefox */
+::-moz-selection {
   color: #ffffff;
   background: #ed6e1c;
 }
@@ -69,13 +69,15 @@ nav a:hover {
 }
 /* Lateral */
 .lateral {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 15%;
+  gap: 40px;
   font-family: "neulis-sans", sans-serif;
   font-weight: 500;
   font-style: normal;
   color: #ed6e1c;
   margin-right: 30px;
-  max-width: 23%;
-  min-width: 250px;
 }
 h1 {
   font-size: 55px;
@@ -86,7 +88,7 @@ h1 {
   width: 300px;
 }
 .datos {
-  margin: 60px 0 60px 0;
+  margin: 0;
   font-size: 17px;
   line-height: 33px;
   letter-spacing: 0.2px;
@@ -122,7 +124,7 @@ h1 {
   flex-direction: column;
   align-items: center;
   transform: rotate(6.1rad);
-  margin: 35px 0 0 -40px;
+  margin: -25px 0 0 -40px;
 }
 .subrayado {
   font-family: "MBJ Doodles";
@@ -134,6 +136,9 @@ h1 {
   user-select: none;
   transform: rotate(-6.14rad);
 }
+.foto img {
+  border-radius: 30px;
+}
 .disponible {
   font-family: "MBJ Handwriting";
   font-size: 28px;
@@ -144,8 +149,8 @@ h1 {
 .contenido {
   font-family: "calluna-sans", sans-serif;
   margin-top: 15px;
-  width: 45%;
   line-height: 25px;
+  flex-basis: 50%;
 }
 article {
   margin-bottom: 30px;
@@ -155,25 +160,13 @@ h2 {
   font-weight: 500;
   font-style: normal;
   color: #ed6e1c;
-	font-size: 26px;
+  font-size: 26px;
 }
 ul {
   margin-left: 25px;
 }
 li::marker {
   color: #ed6e1c;
-}
-#perfil {
-    font-size: 160%;
-    line-height: 145%;
-    font-weight: 500;
-}
-#perfil p{
-	padding-right: 50px;
-}
-#perfil p span{
-	color: #ed6e1c;
-	font-weight: 900;
 }
 .puesto {
   font-weight: 700;
@@ -186,6 +179,7 @@ li::marker {
 .info {
   font-weight: 400;
   font-style: normal;
+  margin-left: 20px;
 }
 .item-info, #perfil {
   margin-bottom: 10px;
@@ -196,6 +190,9 @@ li::marker {
 .item-info:hover, #perfil:hover {
   background: #7070700f;
 }
+.item-ancho ul {
+  max-width: 600px;
+}
 .fecha, .lugar {
   font-variant: all-small-caps;
   color: #707070;
@@ -204,7 +201,20 @@ li::marker {
 .item-detalle {
   margin-bottom: 10px;
 }
-/* Habilidades */
+/* PERFIL */
+#perfil {
+  font-size: 130%;
+  line-height: 145%;
+  font-weight: 500;
+}
+#perfil p {
+  padding-right: 50px;
+}
+#perfil p span {
+  color: #ed6e1c;
+  font-weight: 900;
+}
+/* HABILIDADES */
 .lista-programas {
   display: flex;
   gap: 12px;
@@ -215,12 +225,11 @@ li::marker {
   display: flex;
   font-weight: 600;
   background: #7070700f;
-  padding: 15px 20px;
+  padding: 18px 20px;
   border-radius: 15px;
-  flex-grow: 1;
   gap: 10px;
-  width: 210px;
-  max-width: 100%;
+  min-width: 220px;
+  flex: 1 1 30%;
   align-items: center;
 }
 .item-programas:hover {
