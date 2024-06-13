@@ -264,7 +264,6 @@ footer {
 	margin-right: 12px;
 	height: 100%;
 }
-/* ANIMACIÓN ACTIVAR!!!
 @keyframes slide-left {
   0% {
     transform: translateX(0);
@@ -280,7 +279,7 @@ footer {
   100% {
     transform: translateX(100%);
   }
-} */
+}
 #index-proyectos {
 	display: flex;
 	flex-direction: column;
