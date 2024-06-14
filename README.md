@@ -1,14 +1,12 @@
-# Fatima Díaz - Curriculum
+# Portfolio - Fátima Daniela Díaz
 > Resolución de pantalla: 1920 x 1080
 > <br/>
 > Programa: Adobe Dreamweaver
+> <br/>
+> Figma: https://www.figma.com/design/HC0AFQ5tfXQP2zprPGZZNp/Portfolio?node-id=0%3A1&t=rs6IapuAjOpGC430-1
 <br/>
-Para diseñar la página tomé como base la identidad que estoy armando para mi marca personal en Behance y un curriculum realizado en InDesign formato A4.
+Para el prototipado de este trabajo usé auto layout, complementos y varias animaciones en figma. Me gustó esa instancia y se bien me tomó mas tiempo, tener ciertas logicas ya resueltas me facilitó mucho al pasarlo a HTML. Pensé en varias animaciones pero no llegué a aplicarlas todas en el HTML, de hecho el slider de etiquetas del index no logré que se vean repetidas en bucle, después de un rato se nota. Tampoco logré que apareciera la flecha debajo del cursor.
 <br/>
-A medida que avanzaba y tomaba las correcciones fui descartando algunas de mis primeras ideas y reemplazandolas por otras. Por ejemplo, mi primera propuesta fue una página en tres columnas, donde los titulos y el contenido estaban en columnas diferentes pero dejaba poco espacio para el contenido. Por lo mismo, desistí de hacer la «section» lateral fija y en su lugar encontré que el menú horizontal fijo era más interesante y generaba menos conflictos para pantallas pequeñas (a lo largo).
+Todos los HTML están vinculados pero de los proyectos solo desarrollé la vista en detalle de Carlos Regazzoni. Para la versión mobile solo desarrollé el index, el ancho lo fijé en 720px hice la prueba en otros celulares y con la emulación de dispositivo, y se veia bien pero en mi celular no, no lo pude resolver.
 <br/>
-Al principio definí los anchos de las «sections» lateral y contenido con porcentajes pero luego de «jugar» con flexbox, lo resolví con flex-basis.
-<br/>
-Descubrí formas de sintetizar y eliminar etiquetas innecesarias para tener un código más limpio y claro. 
-<br/>
-Si bien la página tiene una estructura más clásica, intenté jugar con los vertices redondeados, efectos hover e íconos para hacerlo más interesante. Y me gustó el resultado final :)
+Me gustó mucho el resultado final y planeo seguir trabajandolo después de la cursada para implementar todo lo que prototipé en figma.
