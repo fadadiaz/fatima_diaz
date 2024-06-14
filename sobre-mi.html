@@ -12,9 +12,9 @@
 	<nav class="margen-contenedor">
 		<div id="logo-nav"><a href="index.html" target="_self"><img src="img/logos/logo_narnaja.png" alt="Logo Fá" width="50px" height="50px"></a></div>
 		<ul id="menu-nav">
-			<li><a href="proyectos.html" target="_self">proyectos</a></li>
-			<li><a href="sobre-mi.html" target="_self">sobre mí</a></li>
-			<li><a href="contacto.html" target="_self">contacto</a></li>
+			<li><a class="boton-nav" href="proyectos.html" target="_self">proyectos</a></li>
+			<li><a class="boton-nav active" href="sobre-mi.html" target="_self">sobre mí</a></li>
+			<li><a class="boton-nav" href="contacto.html" target="_self">contacto</a></li>
 		</ul>
 	</nav>
 	<div id="encabezado-sec" class="margen-contenedor">
@@ -22,12 +22,125 @@
 	</div>
 </header>
 <main>
-	<section class="margen-contenedor columna-sobre"></section>
-	<article id="tarjeta">
-		<h6>presentación</h6>
-		<div id="contenido-tarjeta"><img src="img/sobre-mi/retrato-fatima.jpg" width="312px" height="312px" alt="Retratp de Fátima">
-			<p>Soy Fátima, estudiante de Diseño y Comunicación Visual, tengo experiencia en comunicación y gestión cultural, y realicé trabajos particulares de diseño para redes sociales e identidad visual.</p>
-	<section class="margen-contenedor columna-sobre"></section>
+	<section class="margen-contenedor datos-sobre-mi">
+		<article id="tarjeta-presentacion" class="tarjeta">
+			<h6>presentación</h6>
+			<div class="contenido-tarjeta"> <img src="img/sobre-mi/retrato-fatima.jpg" width="312px" height="312px" alt="Retrato de Fátima">
+				<p>Vegana por los animales. Alegre victima del Sistema de Distribución de Gatos, con tres gatitos rescatados. Practico pilates en mi tiempo libre para despejarme. En cuanto al diseño, estoy buscando nuevos proyectos y desafíos creativos.</p>
+			</div>
+		</article>
+		<article class="tarjeta">
+			<h6>formación</h6>
+			<div class="contenido-tarjeta">
+				<div class="item-sm">
+					<div class="titulo-item">
+						<p>Lic. Diseño y Comunicación Visual</p>
+						<p>21-act.</p>
+					</div>
+					<p class="subtitulo-item">Universidad Nacional de Lanús</p>
+				</div>
+				<div class="item-sm">
+					<div class="titulo-item">
+						<p>Curso de Inglés Nivel 1</p>
+						<p>2022</p>
+					</div>
+					<p class="subtitulo-item">Universidad Nacional de Lanús</p>
+				</div>
+				<div class="item-sm">
+					<div class="titulo-item">
+						<p>Introducción a la Programación</p>
+						<p>2023</p>
+					</div>
+					<p class="subtitulo-item">Argentina Programa (INTI)</p>
+				</div>
+				<div class="item-sm">
+					<div class="titulo-item">
+						<p>Artes Visuales con Esp. en Pintura</p>
+						<p>2015</p>
+					</div>
+					<p class="subtitulo-item">ESEA Nº 1 de Luis Guillón</p>
+				</div>
+			</div>
+		</article>
+		<article class="tarjeta">
+			<h6>experiencia</h6>
+			<div class="contenido-tarjeta">
+				<div class="item-sm">
+					<div class="titulo-item">
+						<p>Prensa - Diseñadora</p>
+						<p>23-act.</p>
+					</div>
+					<p class="subtitulo-item">Sindicato STMEE</p>
+				</div>
+				<div class="item-sm">
+					<div class="titulo-item">
+						<p>Comunicación</p>
+						<p>22-act.</p>
+					</div>
+					<p class="subtitulo-item">Mun. de Esteban Echeverría</p>
+				</div>
+				<div class="item-sm">
+					<div class="titulo-item">
+						<p>Diseño de identidad visual</p>
+						<p>2022</p>
+					</div>
+					<p class="subtitulo-item">Sin Retorno - Diario online</p>
+				</div>
+				<div class="item-sm">
+					<div class="titulo-item">
+						<p>Producción y difusión de eventos</p>
+						<p>2018</p>
+					</div>
+					<p class="subtitulo-item">Mun. de Esteban Echeverría</p>
+				</div>
+			</div>
+		</article>
+		<article class="tarjeta">
+			<h6>mi playlist favorita</h6>
+			<div class="contenido-tarjeta">
+				<iframe width="312px" height="312px"  src="https://www.youtube.com/embed/videoseries?si=w01E_Cjbjmcc6Zzl&amp;list=PLiWBkemlCqBcQIKKpN8tJhoTiojapekCK" title="Amorina Bailable" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+			</div>
+		</article>
+		<article class="tarjeta" id="gatijos">
+			<h6>mis gatijos</h6>
+			<div class="contenido-tarjeta slider-gatitos">
+				<input type="radio" name="slider" id="slide-1-boton" class="boton-gatitos" checked>
+				<label class="btn" for="slide-1-boton"></label>
+				<input type="radio" name="slider" id="slide-2-boton" class="boton-gatitos">
+				<label class="btn" for="slide-2-boton"></label>
+				<input type="radio" name="slider" id="slide-3-boton" class="boton-gatitos">
+				<label class="btn" for="slide-3-boton"></label>
+				<input type="radio" name="slider" id="slide-4-boton" class="boton-gatitos">
+				<div class="slide-caja">
+					<div id="slide-fotos">
+						<div class="slide slide-1"></div>
+						<div class="slide slide-2"></div>
+						<div class="slide slide-3"></div>
+					</div>
+				</div>
+			</div>
+		</article>
+		<article class="tarjeta">
+			<h6>áreas de interés</h6>
+			<div class="contenido-tarjeta"  id="areas">
+				<div class="item-sm">
+					<p>Identidad visual</p>
+				</div>
+				<div class="item-sm">
+					<p>Diseño y desarrollo web</p>
+				</div>
+				<div class="item-sm">
+					<p>Creación de afiches</p>
+				</div>
+				<div class="item-sm">
+					<p>Aplicaciones en App Sheet</p>
+				</div>
+				<div class="item-sm">
+					<p>Automatizaciones con App Script</p>
+				</div>
+			</div>
+		</article>
+	</section>
 </main>
 <footer>
 	<div id="footer-container" class="margen-contenedor" >
